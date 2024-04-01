@@ -46,6 +46,20 @@
                     </li>
                     <li class="min-w-max">
                         <a href="#"
+                            class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600  hover:bg-gradient-to-r from-purple-600 to-purple-200 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path class="fill-current text-gray-300 group-hover:text-cyan-200"
+                                    d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z" />
+                                <path class="fill-current text-gray-600 group-hover:text-gray-600" fill-rule="evenodd"
+                                    d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-medium">Punto de Venta</span>
+                        </a>
+                    </li>
+                    <li class="min-w-max">
+                        <a href="{{ route('inventario') }}"
                             class="bg group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600  hover:bg-gradient-to-r from-purple-700 to-purple-300 hover:text-white ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -123,20 +137,6 @@
                                     d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
                             </svg>
                             <span class="font-medium">Proveedores</span>
-                        </a>
-                    </li>
-                    <li class="min-w-max">
-                        <a href="#"
-                            class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600  hover:bg-gradient-to-r from-purple-600 to-purple-200 hover:text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path class="fill-current text-gray-300 group-hover:text-cyan-200"
-                                    d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z" />
-                                <path class="fill-current text-gray-600 group-hover:text-gray-600" fill-rule="evenodd"
-                                    d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            <span class="font-medium">ventas</span>
                         </a>
                     </li>
                 </ul>
