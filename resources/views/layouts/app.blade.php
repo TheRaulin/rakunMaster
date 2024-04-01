@@ -19,13 +19,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
-<body class="h-screen font-sans antialiased">
+<body class=" h-screen font-sans antialiased">
     <div class="h-full">
-        <header class="flex flex-row justify-between shadow border-b border-gray-300" style="height: 9%">
+
+   
+        <header class="flex flex-row h-[9%] justify-between shadow border-b border-gray-300" >
             @include('layouts.nav-bar')
         </header>
-        <div class="flex flex-row bg-gray-100 " style="height: 91%">
+        <div class="flex flex-row h-[91%] bg-gray-600">
             @include('layouts.navigation')
+
+            
 
             <!-- Page Heading -->
 
