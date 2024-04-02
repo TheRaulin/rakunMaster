@@ -1,4 +1,5 @@
-<div class="" style=""></div>
+<div class="" style="">
+hola</div>
 <div class="flex flex-row font-lato px-6 py-2 border-l border-r border-gray-300" style="background-color: #F2F2F2; color: #444444">
     <div class="caja_nombre px-2 text-left">
         <div class="text-sm">Caja:</div>
@@ -14,4 +15,4 @@
                                     </a>
     </div>
 </div>
-<div class="" style=""></div>
+<div class="" style="">hello</div>

@@ -15,7 +15,7 @@
   }
 -->
 
-<div class=" h-full bg-gray-100  ">
+<div class="h-full bg-gray-100  ">
     <div class="sidebar  w-[3.35rem] overflow-hidden border-r hover:w-56   hover:z-10 hover:bg-white hover:shadow-lg ">
         <div class="flex flex-col justify-between pt-2 pb-6 ">
             <div>
@@ -141,7 +141,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="min-w-max -mb-3 mt-[8.89rem]"> <!--arreglo provisional:mt-[8.82rem]-->
+            <div class="min-w-max -mb-3 ">
+                <!--arreglo provisional:mt-[8.82rem] -  El arreglo no sirvio chamo-->
                 <a href="#"
                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600  hover:bg-gradient-to-r from-purple-600 to-purple-200 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-hover:fill-cyan-200"
