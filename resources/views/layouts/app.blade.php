@@ -25,7 +25,7 @@
         <header class="flex flex-row h-[10%] justify-between shadow border-b border-gray-300">
             @include('layouts.nav-bar')
         </header>
-        <div class="flex flex-row h-[90%] bg-gray-600">
+        <div class="flex flex-row h-[90%]">
             @include('layouts.navigation')
 
             <!-- Page Heading -->

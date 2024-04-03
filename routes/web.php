@@ -13,7 +13,7 @@ Route::get('/dashboard', function () {
 
 //Rutas del inventario
 Route::get('/inventario', function () {
-    return view('inventario');
+    return view('inventario.inventario');
 })->middleware(['auth', 'verified'])->name('inventario');
 
 
