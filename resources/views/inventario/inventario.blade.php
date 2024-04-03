@@ -14,6 +14,7 @@
                 </select>
             </div>
             <div class="">
+                <button class="bg-green-500 w-40 h-10">Ver Categorias</button>
                 <button class="bg-blue-500 w-40 mx-2 h-10" x-data="" x-on:click.prevent="$dispatch('open-modal', 'add-category')" type="submit">Crear categoria</button>
                 <button class="bg-red-500 w-40 h-10">Agregar producto</button>
             </div>
