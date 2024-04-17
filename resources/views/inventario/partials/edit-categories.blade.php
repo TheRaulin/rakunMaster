@@ -1,4 +1,4 @@
-<x-modal-a name="see-categories" :show="$errors->userDeletion->isNotEmpty()" focusable>
+<x-modal-a name="edit-categories" :show="$errors->userDeletion->isNotEmpty()" focusable>
     <x-content-modal classes="h-full w-full flex justify-center items-center">
         <div class="bg-white px-8 py-8 w-1/3">
         <button class="mx-3 hover:bg-white rounded-md" x-on:click="show = false">
@@ -14,7 +14,7 @@
             </section>
             <section>
                 <div>
-                    <div id="category" class="flex justify-between cursor-pointer border mt-8" x-data="{ openModal: false }" x-on:click.prevent="show = false ;$dispatch('open-modal', 'edit-categories')">
+                    <div id="category" class="flex justify-between cursor-pointer border mt-8" >
                         <div id="name-category" 
                              class="inline"
                              >Arroz</div>
@@ -26,7 +26,7 @@
                     
                 </div>
             </section>
-            <button class="w-full mt-8 h-12 rounded-xl bg-blue-500"
+            <button class="w-full mt-8 h-12 rounded-xl bg-red-500"
                     x-data="{ openModal: false }" x-on:click.prevent="show = false ;$dispatch('open-modal', 'add-category')"
                     >Crear categoria</button>
         </div>

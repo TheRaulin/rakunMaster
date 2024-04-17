@@ -61,4 +61,5 @@
     @include('inventario.partials.add-category')
     @include('inventario.partials.add-product')
     @include('inventario.partials.see-categories')
+    @include('inventario.partials.edit-categories')
 </x-app-layout>
