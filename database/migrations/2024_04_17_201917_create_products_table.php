@@ -14,10 +14,15 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email');
-            $table->string('telefono');
+            $table->string('category');
+            $table->decimal('precio', 10, 2); // Utilizo decimal para almacenar valores monetarios
+            $table->decimal('costo', 10, 2); // Utilizo decimal para almacenar valores monetarios
+            $table->integer('cantidad');
+            $table->enum('estado', ['nuevo', 'usado']); // Utilizo un tipo enum para limitar los valores posibles
+            $table->text('descripcion')->nullable(); // Campo de descripción, puede ser nulo
             $table->timestamps();
         });
+        
     }
 
     /**
